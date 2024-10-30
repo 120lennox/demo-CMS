@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from rest_framework import viewsets
 from .models import Page, Section
-from serializers import PageSerializer, SectionSerializer
+from .serializers import PageSerializer, SectionSerializer
 
 # Create your views here.
 class PageViewSet(viewsets.ModelViewSet):
